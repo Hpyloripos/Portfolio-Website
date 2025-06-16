@@ -20,17 +20,10 @@ header { background-color: rgb(228, 119, 46);
          padding: 16px 128px;
          
 }
-.container2 {   display: flex;
-    width: 100%;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    position: sticky;
-    top: 0;
 
 
 
-}
+
 .navigation-links {
 display: flex;
 list-style: none;
@@ -79,11 +72,31 @@ li a:hover { background-color: bisque;
  
     
 }
-.answer { display: block;
 
 
 
+
+header{ position: sticky;
+    top: 0;
+    ;}
+
+
+.details-order{ display: flex;
+    flex-direction: row;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+       
 }
 
+.details { width: 30%;
+    flex-direction: column;
+flex-wrap: wrap;
+display: flex;
+background-color: gray;
+justify-content: center;
+border-width: 5px;
+border-color: white;
+border-style: solid;
+height: 200px;
+}
 
-    
