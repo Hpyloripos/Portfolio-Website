@@ -31,6 +31,6 @@ function daysLived() {
      birthYear= afterJesus - userAge;
     daysAlive= userAge * daysYear;
 
-
-
+console.log(afterJesus +'-' + userAge + '=' + birthYear);
+console.log(userAge + '*' +daysYear +'=' +daysAlive );
 }
